@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CEE3BE02216AB4D005EA5BE /* MonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE3BDF2216AB4D005EA5BE /* MonButton.swift */; };
+		0CEE3BE22216ACAE005EA5BE /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE3BE12216ACAE005EA5BE /* ExtensionView.swift */; };
+		0CEE3BE422172B6F005EA5BE /* Reponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE3BE322172B6F005EA5BE /* Reponse.swift */; };
+		0CEE3BE622173037005EA5BE /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE3BE522173037005EA5BE /* Logo.swift */; };
+		0CEE3BE82217FD47005EA5BE /* MonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE3BE72217FD47005EA5BE /* MonLabel.swift */; };
+		0CEE3BEA221AA7F7005EA5BE /* Son.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE3BE9221AA7F7005EA5BE /* Son.swift */; };
 		0CEEC2112213367E00FB6B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEEC2102213367E00FB6B2D /* AppDelegate.swift */; };
 		0CEEC2132213367E00FB6B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEEC2122213367E00FB6B2D /* ViewController.swift */; };
 		0CEEC2162213367E00FB6B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEEC2142213367E00FB6B2D /* Main.storyboard */; };
 		0CEEC2182213368400FB6B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEEC2172213368400FB6B2D /* Assets.xcassets */; };
 		0CEEC21B2213368400FB6B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEEC2192213368400FB6B2D /* LaunchScreen.storyboard */; };
+		0CEEC223221337EA00FB6B2D /* sons in Resources */ = {isa = PBXBuildFile; fileRef = 0CEEC222221337EA00FB6B2D /* sons */; };
+		0CEEC22522133C7500FB6B2D /* MaVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEEC22422133C7500FB6B2D /* MaVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CEE3BDF2216AB4D005EA5BE /* MonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonButton.swift; sourceTree = "<group>"; };
+		0CEE3BE12216ACAE005EA5BE /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		0CEE3BE322172B6F005EA5BE /* Reponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reponse.swift; sourceTree = "<group>"; };
+		0CEE3BE522173037005EA5BE /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		0CEE3BE72217FD47005EA5BE /* MonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonLabel.swift; sourceTree = "<group>"; };
+		0CEE3BE9221AA7F7005EA5BE /* Son.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Son.swift; sourceTree = "<group>"; };
 		0CEEC20D2213367E00FB6B2D /* Apple ou pas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple ou pas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEEC2102213367E00FB6B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEEC2122213367E00FB6B2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		0CEEC2172213368400FB6B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CEEC21A2213368400FB6B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CEEC21C2213368400FB6B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEEC222221337EA00FB6B2D /* sons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sons; sourceTree = "<group>"; };
+		0CEEC22422133C7500FB6B2D /* MaVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +70,20 @@
 		0CEEC20F2213367E00FB6B2D /* Apple ou pas */ = {
 			isa = PBXGroup;
 			children = (
+				0CEEC222221337EA00FB6B2D /* sons */,
 				0CEEC2102213367E00FB6B2D /* AppDelegate.swift */,
 				0CEEC2122213367E00FB6B2D /* ViewController.swift */,
 				0CEEC2142213367E00FB6B2D /* Main.storyboard */,
 				0CEEC2172213368400FB6B2D /* Assets.xcassets */,
 				0CEEC2192213368400FB6B2D /* LaunchScreen.storyboard */,
 				0CEEC21C2213368400FB6B2D /* Info.plist */,
+				0CEEC22422133C7500FB6B2D /* MaVue.swift */,
+				0CEE3BDF2216AB4D005EA5BE /* MonButton.swift */,
+				0CEE3BE12216ACAE005EA5BE /* ExtensionView.swift */,
+				0CEE3BE322172B6F005EA5BE /* Reponse.swift */,
+				0CEE3BE522173037005EA5BE /* Logo.swift */,
+				0CEE3BE72217FD47005EA5BE /* MonLabel.swift */,
+				0CEE3BE9221AA7F7005EA5BE /* Son.swift */,
 			);
 			path = "Apple ou pas";
 			sourceTree = "<group>";
@@ -125,6 +149,7 @@
 				0CEEC21B2213368400FB6B2D /* LaunchScreen.storyboard in Resources */,
 				0CEEC2182213368400FB6B2D /* Assets.xcassets in Resources */,
 				0CEEC2162213367E00FB6B2D /* Main.storyboard in Resources */,
+				0CEEC223221337EA00FB6B2D /* sons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEE3BE422172B6F005EA5BE /* Reponse.swift in Sources */,
+				0CEE3BE622173037005EA5BE /* Logo.swift in Sources */,
+				0CEE3BE02216AB4D005EA5BE /* MonButton.swift in Sources */,
+				0CEE3BE82217FD47005EA5BE /* MonLabel.swift in Sources */,
+				0CEE3BE22216ACAE005EA5BE /* ExtensionView.swift in Sources */,
 				0CEEC2132213367E00FB6B2D /* ViewController.swift in Sources */,
+				0CEEC22522133C7500FB6B2D /* MaVue.swift in Sources */,
 				0CEEC2112213367E00FB6B2D /* AppDelegate.swift in Sources */,
+				0CEE3BEA221AA7F7005EA5BE /* Son.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6USCN7H2JA;
 				INFOPLIST_FILE = "Apple ou pas/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6USCN7H2JA;
 				INFOPLIST_FILE = "Apple ou pas/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
